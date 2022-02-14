@@ -1,0 +1,121 @@
+/*** Nessesary CSS Start From Here***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/*** Nessesary CSS End Here***/
+/*** Flex-Section ***/
+.flex-box{
+    width: 700px;
+    height: 400px;
+    background: #ddd;
+    border: 1px solid red;
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content:flex-start ;
+    margin: 30px auto;
+}
+.flex-item{
+    background: green;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+
+}
+/* Section Header */
+.header{
+    background: #111;
+    padding: 20px;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: cadetblue;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.service{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.service-item{
+    border: 1px solid red;
+    padding: 10px;
+}
+/*** About Section ***/
+.about-box{
+    margin-top: 10px;
+    display: flex;
+}
+.about-item{
+    border: 1px solid black;
+    flex-grow: 30%;
+    padding: 20px;
+}
+.big-about{
+    flex-grow: 70%;
+}
+.content{}
+.content-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.con-item1{
+    border: 1px solid #000;
+    width: 24%;
+    padding: 10px;
+}
+.con-item2{
+    border: 1px solid #000;
+    width: 52%;
+    padding: 10px;
+}
+.con-item3{
+    border: 1px solid #000;
+    width: 24%;
+    padding: 10px;
+}
+/* Div Section */
+.div{
+    
+    
+}
+.div-item{
+    height: 500px;
+    width: 500px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin: 0 auto ;
+    
+
+}
+.item{
+    background: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+}
